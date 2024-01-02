@@ -27,7 +27,7 @@ vars:
   dosfstools_sha512: 3cc0808edb4432428df8a67da4bb314fd1f27adc4a05754c1a492091741a7b6875ebd9f6a509cc4c5ad85643fc40395b6e0cadee548b25cc439cc9b725980156
 
   # renovate: datasource=github-tags extractVersion=^drbd-(?<version>.*)$ depName=LINBIT/drbd
-  drbd_version: 9.2.6
+  drbd_version: 9.2.7
   drbd_sha256: 25e843e561e0af01a503d91657cea4109cc7e10b422129eeb1d4ba926255a9b4
   drbd_sha512: 53a4b0ddee9b9097c03e15e3a9e48e7898b7bc0226af216eb47d2f081cde26b038d7536197c7ec8e5473643919dede8a928f4f03cc5ad8c1ab625524cb62bc05
 
@@ -63,12 +63,12 @@ vars:
   iptables_sha512: 71e6ed2260859157d61981a4fe5039dc9e8d7da885a626a4b5dae8164c509a9d9f874286b9468bb6a462d6e259d4d32d5967777ecefdd8a293011ae80c00f153
 
   # renovate: datasource=git-refs versioning=git depName=https://github.com/ipxe/ipxe.git
-  ipxe_ref: c3dd3168c916f624af1b843515c1305387060611
+  ipxe_ref: fa62213231a882eb6bbcefa7ad1106bdb9aaeae2
   ipxe_sha256: 6c975a482e0095be69eb51f2ec4a546d1f7ac046b2208a07bf9c974843f58ed9
   ipxe_sha512: 00dc6f925e3b3f6a92b7b6fc1733a3c022b3af7c11b1c0dd8a36fb383a912fc3f7861fcafbaf385ef8f2bc41da147252ac329faf9c88bdc67d770446fc9bae99
 
   # renovate: datasource=git-tags extractVersion=^v(?<version>.*)$ depName=git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git
-  linux_version: 6.1.69
+  linux_version: 6.1.70
   linux_sha256: 7e3d2694d18ce502068cc88a430da809abbd17d0773268524ebece442612b541
   linux_sha512: 70afe2642b58cb0a1a5b38867e00052b3236f7701d9d006f0d95c66f204935453e997bd8b4d28c890617e745e08610d39933ef0798ede13f230485a8222b9819
 
@@ -113,7 +113,7 @@ vars:
   liburcu_sha512: 7297e51012f4c44ee27c0e18ed9d87bf24be34db68a5398394c1e683a045bb561cf74aa913398404c0ed5cb8011af728ea12947717fa5f27627e5ca78e63a40f
 
   # renovate: datasource=git-tags depName=git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git
-  linux_firmware_version: 20231111
+  linux_firmware_version: 20231211
   linux_firmware_sha256: 80bfc46e3fc43820331a965354f5a3a9b478df90b07e2f39d9ddebc67ae0b23a
   linux_firmware_sha512: 1fd2ef6dfce264da5d9945669ca3f97f6053e77724724ec2eb98e6e39d96fb5e3649c6d304dfc24ef9d704c84574947f8f2bebeb34f3c0ee2bfb49bc96a1df70
 
@@ -132,7 +132,7 @@ vars:
   musl_sha512: 498ec5d7941194a8806f4d42f0f6d218c862996ef1398b737d0d06995e0b7a6574b240a48088f6b84016b14b2776fe463f829dcb11149cdfc1023d496b235c55
 
   # renovate: datasource=github-releases depName=nvidia/open-gpu-kernel-modules
-  nvidia_driver_version: 535.129.03
+  nvidia_driver_version: 535.146.02
   nvidia_driver_sha256: 170ee91b6cd6c801bba0de91e0d62af8e574adde38120bc762784755b5a9821d
   nvidia_driver_sha512: c8104103f34365b7a20dcebb64e1eb2e64a7b056b44329fa305f81e267759f2b1bb1c09923e617d4f5f4af3be01c3b8e2e6d739f03d4d0f129b31331fec3a4d8
 
@@ -147,8 +147,8 @@ vars:
   raspberrypi_firmware_sha512: ddc9baeba4e2e442bfe41e427c7ecdd38ee6d44ac4e7c297ae7d5a6c64b0aa1a81206929baeb9aceb74de6f96707b30040e82450ef4f01a78b958299c72e3857
 
   # renovate: datasource=github-tags depName=opencontainers/runc
-  runc_version: v1.1.10
-  runc_ref: 18a0cb0f32bcac2ecc9a10f327d282759c144dab
+  runc_version: v1.1.11
+  runc_ref: 4bccb38cc9cf198d52bebf2b3a90cd14e7af8c06
   runc_sha256: bd3e89ae89319ef344e7e26f392b40e344bcd5bbdea84ca459a43189451615bf
   runc_sha512: bf25d5222b560428daab58d887fd867a7e4c5703004eae9dbc1a082d55ac5db961ed8e5a2ff5dafe6d6350e59afd1053b98a6fc0e8a281758b706cf9144860d3
 
@@ -173,7 +173,7 @@ vars:
   arm_trusted_firmware_sha512: 958cf8f9e258638e59d0fbd8b053fce7d8a9ea2fc922686c9d20ea16f79f55219ac18a12ab240c528ee98e49c2e0eef4c963fdb255cc14b92437a5b3cffc8640
 
   # renovate: datasource=github-tags extractVersion=^v(?<version>.*)$ depName=u-boot/u-boot
-  uboot_version: 2023.01
+  uboot_version: 2023.10
   uboot_sha256: 69423bad380f89a0916636e89e6dcbd2e4512d584308d922d1039d1e4331950f
   uboot_sha512: 417a28267eb7875820d08fafc7316f164663609378637539e71648b0b9b7d28796b6c381717f31b0ab6472805fefd32628ef7d1b2e7b9f3c51c8ad122993f679
 
